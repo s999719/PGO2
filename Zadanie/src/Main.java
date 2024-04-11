@@ -26,6 +26,28 @@ public class Main {
             }
         } catch (IllegalStateException e) {
             System.out.println(e.getMessage());
+
+
+
+
+            student1.addGrade(4.5);
+            student1.addGrade(3.0);
+            student1.addGrade(5.0);
+
+            student2.addGrade(4.0);
+            student2.addGrade(3.5);
+
+            student3.addGrade(3.5);
+            student3.addGrade(4.5);
+            student3.addGrade(4.5);
+            student3.addGrade(3.0);
+            student3.addGrade(3.0);
+            student3.addGrade(3.0);
+
+
+            System.out.println("student 1: " + student1.policzSrednia());
+            System.out.println("student 2: " + student2.policzSrednia());
+            System.out.println("student 3: " + student3.policzSrednia());
         }
     }
 }

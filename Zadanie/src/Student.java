@@ -25,7 +25,7 @@ public class Student {
         grades.add(grade);
     }
 
-    public double calculateAverageGrade() {
+    public double policzSrednia() {
         if (grades.isEmpty()) {
             throw new IllegalArgumentException("Student nie ma ocen");
         }
